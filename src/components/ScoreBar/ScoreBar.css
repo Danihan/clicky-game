@@ -1,0 +1,14 @@
+.ScoreBar {
+  display: flex;
+  height: 96px;
+  align-items: center;
+  font-size: 2em;
+}
+
+.ScoreBar-Left {
+  margin-right: auto;
+}
+
+.ScoreBar-Right {
+  margin-left: auto;
+}
