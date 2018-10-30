@@ -9,7 +9,7 @@ class Card extends Component {
   render() {
     const { index, ...props } = this.props
 
-    return <div {...props} className="Card" onClick={this.onClick}><div className="CardInner" style={{backgroundImage: `url(/images/${index}.jpg)`}} /></div>
+    return <div {...props} className="Card" onClick={this.onClick}><div className="CardInner" style={{backgroundImage: `url(images/${index}.jpg)`}} /></div>
   }
 }
 
